@@ -1,0 +1,6 @@
+{
+  "name": "EduFee - Student Fee & Payment Reminder System",
+  "description": "Comprehensive college fee management, payment tracking, receipt generation, and automated reminder system for administrators and students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,490 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "System Administrator",
+      "email": "admin@example.com",
+      "password": "$2b$10$weXBt1NK7kOr9amcj1n7DOFAY.PqbB3sNMivs0aUdhVtNhglUVJxW",
+      "role": "admin",
+      "phone": "9876543210",
+      "createdAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "password": "$2b$10$3zCYLvQNbC1yP2MokcK/.eL24l2aCP7cIfL8FbqYb9lwJfU3dwPe2",
+      "role": "student",
+      "phone": "9876500001",
+      "createdAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "password": "$2b$10$3zCYLvQNbC1yP2MokcK/.eL24l2aCP7cIfL8FbqYb9lwJfU3dwPe2",
+      "role": "student",
+      "phone": "9876500002",
+      "createdAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "password": "$2b$10$3zCYLvQNbC1yP2MokcK/.eL24l2aCP7cIfL8FbqYb9lwJfU3dwPe2",
+      "role": "student",
+      "phone": "9876500003",
+      "createdAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@example.com",
+      "password": "$2b$10$3zCYLvQNbC1yP2MokcK/.eL24l2aCP7cIfL8FbqYb9lwJfU3dwPe2",
+      "role": "student",
+      "phone": "9876500004",
+      "createdAt": "2026-08-22T10:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Vikram Singh",
+      "email": "vikram.singh@example.com",
+      "password": "$2b$10$3zCYLvQNbC1yP2MokcK/.eL24l2aCP7cIfL8FbqYb9lwJfU3dwPe2",
+      "role": "student",
+      "phone": "9876500005",
+      "createdAt": "2026-08-25T10:00:00.000Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "department_name": "Computer Science & Engineering",
+      "department_code": "CSE",
+      "description": "Department of Computer Science and Engineering with AI & Software Labs.",
+      "courses": [
+        "B.Tech CSE",
+        "M.Tech CSE",
+        "B.Sc Computer Science"
+      ],
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 2,
+      "department_name": "Information Technology",
+      "department_code": "IT",
+      "description": "Department of Information Technology specializing in web, cloud, and security.",
+      "courses": [
+        "B.Tech IT",
+        "BCA",
+        "MCA"
+      ],
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 3,
+      "department_name": "Electronics & Communication",
+      "department_code": "ECE",
+      "description": "Department of ECE focusing on embedded systems, IoT, and telecom.",
+      "courses": [
+        "B.Tech ECE",
+        "M.Tech VLSI"
+      ],
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 4,
+      "department_name": "Mechanical Engineering",
+      "department_code": "MECH",
+      "description": "Department of Mechanical Engineering with robotics and automation.",
+      "courses": [
+        "B.Tech Mechanical"
+      ],
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 5,
+      "department_name": "Management Studies",
+      "department_code": "MBA",
+      "description": "Department of Business Administration & Management.",
+      "courses": [
+        "BBA",
+        "MBA"
+      ],
+      "status": "active",
+      "created_at": "2026-08-01"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "student_id": "STU2026001",
+      "user_id": 2,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "9876500001",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CSE",
+      "year": 3,
+      "semester": 5,
+      "academic_year": "2025-2026",
+      "admission_date": "2023-08-10",
+      "status": "active",
+      "created_at": "2026-08-10"
+    },
+    {
+      "id": 2,
+      "student_id": "STU2026002",
+      "user_id": 3,
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "phone": "9876500002",
+      "department": "Information Technology",
+      "course": "B.Tech IT",
+      "year": 2,
+      "semester": 3,
+      "academic_year": "2025-2026",
+      "admission_date": "2024-08-14",
+      "status": "active",
+      "created_at": "2026-08-14"
+    },
+    {
+      "id": 3,
+      "student_id": "STU2026003",
+      "user_id": 4,
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "phone": "9876500003",
+      "department": "Electronics & Communication",
+      "course": "B.Tech ECE",
+      "year": 4,
+      "semester": 7,
+      "academic_year": "2025-2026",
+      "admission_date": "2022-08-20",
+      "status": "active",
+      "created_at": "2026-08-20"
+    },
+    {
+      "id": 4,
+      "student_id": "STU2026004",
+      "user_id": 5,
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@example.com",
+      "phone": "9876500004",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CSE",
+      "year": 1,
+      "semester": 1,
+      "academic_year": "2025-2026",
+      "admission_date": "2025-08-12",
+      "status": "active",
+      "created_at": "2026-08-22"
+    },
+    {
+      "id": 5,
+      "student_id": "STU2026005",
+      "user_id": 6,
+      "name": "Vikram Singh",
+      "email": "vikram.singh@example.com",
+      "phone": "9876500005",
+      "department": "Management Studies",
+      "course": "MBA",
+      "year": 1,
+      "semester": 2,
+      "academic_year": "2025-2026",
+      "admission_date": "2025-08-15",
+      "status": "active",
+      "created_at": "2026-08-25"
+    }
+  ],
+  "feeStructures": [
+    {
+      "id": 1,
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CSE",
+      "year": 3,
+      "semester": 5,
+      "academic_year": "2025-2026",
+      "tuition_fee": 45000,
+      "exam_fee": 2500,
+      "library_fee": 1500,
+      "hostel_fee": 18000,
+      "other_fee": 3000,
+      "total_fee": 70000,
+      "due_date": "2026-10-15",
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 2,
+      "department": "Information Technology",
+      "course": "B.Tech IT",
+      "year": 2,
+      "semester": 3,
+      "academic_year": "2025-2026",
+      "tuition_fee": 42000,
+      "exam_fee": 2500,
+      "library_fee": 1500,
+      "hostel_fee": 16000,
+      "other_fee": 3000,
+      "total_fee": 65000,
+      "due_date": "2026-10-25",
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 3,
+      "department": "Electronics & Communication",
+      "course": "B.Tech ECE",
+      "year": 4,
+      "semester": 7,
+      "academic_year": "2025-2026",
+      "tuition_fee": 40000,
+      "exam_fee": 3000,
+      "library_fee": 1500,
+      "hostel_fee": 0,
+      "other_fee": 3500,
+      "total_fee": 48000,
+      "due_date": "2026-09-15",
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 4,
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CSE",
+      "year": 1,
+      "semester": 1,
+      "academic_year": "2025-2026",
+      "tuition_fee": 50000,
+      "exam_fee": 2500,
+      "library_fee": 2000,
+      "hostel_fee": 18000,
+      "other_fee": 5000,
+      "total_fee": 77500,
+      "due_date": "2026-11-30",
+      "status": "active",
+      "created_at": "2026-08-01"
+    },
+    {
+      "id": 5,
+      "department": "Management Studies",
+      "course": "MBA",
+      "year": 1,
+      "semester": 2,
+      "academic_year": "2025-2026",
+      "tuition_fee": 60000,
+      "exam_fee": 3000,
+      "library_fee": 2500,
+      "hostel_fee": 20000,
+      "other_fee": 4500,
+      "total_fee": 90000,
+      "due_date": "2026-10-03",
+      "status": "active",
+      "created_at": "2026-08-01"
+    }
+  ],
+  "studentFees": [
+    {
+      "id": 1,
+      "student_id": "STU2026001",
+      "fee_structure_id": 1,
+      "total_amount": 70000,
+      "paid_amount": 70000,
+      "pending_amount": 0,
+      "due_date": "2026-10-15",
+      "status": "PAID",
+      "created_at": "2026-08-15",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "student_id": "STU2026002",
+      "fee_structure_id": 2,
+      "total_amount": 65000,
+      "paid_amount": 35000,
+      "pending_amount": 30000,
+      "due_date": "2026-10-25",
+      "status": "PARTIALLY PAID",
+      "created_at": "2026-08-15",
+      "updated_at": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "student_id": "STU2026003",
+      "fee_structure_id": 3,
+      "total_amount": 48000,
+      "paid_amount": 0,
+      "pending_amount": 48000,
+      "due_date": "2026-09-15",
+      "status": "OVERDUE",
+      "created_at": "2026-08-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "student_id": "STU2026004",
+      "fee_structure_id": 4,
+      "total_amount": 77500,
+      "paid_amount": 0,
+      "pending_amount": 77500,
+      "due_date": "2026-11-30",
+      "status": "PENDING",
+      "created_at": "2026-08-25",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "id": 5,
+      "student_id": "STU2026005",
+      "fee_structure_id": 5,
+      "total_amount": 90000,
+      "paid_amount": 40000,
+      "pending_amount": 50000,
+      "due_date": "2026-10-03",
+      "status": "PARTIALLY PAID",
+      "created_at": "2026-08-25",
+      "updated_at": "2026-09-20"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "receipt_no": "REC-2026-0001",
+      "student_fee_id": 1,
+      "student_id": "STU2026001",
+      "amount": 40000,
+      "payment_method": "UPI",
+      "transaction_id": "UPI/2026/8947219",
+      "payment_date": "2026-09-10",
+      "status": "SUCCESS",
+      "remarks": "First installment - Tuition fee",
+      "recorded_by": "System Administrator",
+      "created_at": "2026-09-10T11:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "receipt_no": "REC-2026-0002",
+      "student_fee_id": 1,
+      "student_id": "STU2026001",
+      "amount": 30000,
+      "payment_method": "Bank Transfer",
+      "transaction_id": "NEFT-AXIS-992104",
+      "payment_date": "2026-09-28",
+      "status": "SUCCESS",
+      "remarks": "Final balance clearance",
+      "recorded_by": "System Administrator",
+      "created_at": "2026-09-28T14:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "receipt_no": "REC-2026-0003",
+      "student_fee_id": 2,
+      "student_id": "STU2026002",
+      "amount": 35000,
+      "payment_method": "UPI",
+      "transaction_id": "UPI/2026/1129482",
+      "payment_date": "2026-09-25",
+      "status": "SUCCESS",
+      "remarks": "Partial fee installment",
+      "recorded_by": "System Administrator",
+      "created_at": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "receipt_no": "REC-2026-0004",
+      "student_fee_id": 5,
+      "student_id": "STU2026005",
+      "amount": 40000,
+      "payment_method": "Card",
+      "transaction_id": "POS-HDFC-582910",
+      "payment_date": "2026-09-20",
+      "status": "SUCCESS",
+      "remarks": "Term 1 payment",
+      "recorded_by": "System Administrator",
+      "created_at": "2026-09-20T16:45:00.000Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "student_id": "STU2026003",
+      "student_fee_id": 3,
+      "reminder_type": "Overdue",
+      "channel": "In-App",
+      "message": "URGENT: Your fee payment of ₹48,000 for B.Tech ECE Semester 7 was due on 2026-09-15. Please clear your dues immediately to prevent exam hall-ticket holds.",
+      "pending_amount": 48000,
+      "due_date": "2026-09-15",
+      "status": "SENT",
+      "sent_date": "2026-09-18 10:30:00"
+    },
+    {
+      "id": 2,
+      "student_id": "STU2026005",
+      "student_fee_id": 5,
+      "reminder_type": "Due Today",
+      "channel": "In-App",
+      "message": "REMINDER: Today is the due date for your remaining MBA fee balance of ₹50,000. Please complete the payment today.",
+      "pending_amount": 50000,
+      "due_date": "2026-10-03",
+      "status": "SENT",
+      "sent_date": "2026-10-03 09:00:00"
+    },
+    {
+      "id": 3,
+      "student_id": "STU2026002",
+      "student_fee_id": 2,
+      "reminder_type": "Upcoming",
+      "channel": "In-App",
+      "message": "Friendly reminder: Your upcoming fee installment of ₹30,000 is due on 2026-10-25. You can pay online or at the accounts office.",
+      "pending_amount": 30000,
+      "due_date": "2026-10-25",
+      "status": "SENT",
+      "sent_date": "2026-10-01 14:15:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "student_id": "STU2026001",
+      "title": "Payment Receipt Generated",
+      "message": "Payment of ₹30,000 has been recorded. Your full fee for Semester 5 is PAID. Receipt: REC-2026-0002",
+      "type": "payment",
+      "is_read": true,
+      "created_at": "2026-09-28 12:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "student_id": "STU2026002",
+      "title": "Upcoming Fee Due Date",
+      "message": "Your remaining fee balance of ₹30,000 is due on 25 Oct 2026.",
+      "type": "due_date",
+      "is_read": false,
+      "created_at": "2026-10-01 14:15:00"
+    },
+    {
+      "id": 3,
+      "user_id": 4,
+      "student_id": "STU2026003",
+      "title": "Fee Payment Overdue Alert",
+      "message": "Your fee of ₹48,000 was due on 15 Sep 2026 and is currently OVERDUE. Please contact the college accounts desk.",
+      "type": "reminder",
+      "is_read": false,
+      "created_at": "2026-09-18 10:30:00"
+    },
+    {
+      "id": 4,
+      "user_id": 6,
+      "student_id": "STU2026005",
+      "title": "Fee Due Today Alert",
+      "message": "Your MBA Semester 2 fee balance of ₹50,000 is due today (03 Oct 2026).",
+      "type": "due_date",
+      "is_read": false,
+      "created_at": "2026-10-03 09:00:00"
+    }
+  ]
+}
